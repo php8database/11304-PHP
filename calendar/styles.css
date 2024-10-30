@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
+    /* 替換為您的背景圖片 */
+    background-size: cover;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+th,
+td {
+    width: 14.28%;
+    height: 60px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+td.today {
+    background-color: #ffeb3b;
+    /* 當天日期顏色 */
+    font-weight: bold;
+}
