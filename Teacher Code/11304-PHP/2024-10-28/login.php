@@ -50,7 +50,10 @@
     </style>
 </head>
 <body>
+<?php
 
+if(!isset($_COOKIE['login'])){
+?>
     <div class="login-container">
         <h2>登入</h2>
         <form action="check_acc.php" method="post">
@@ -60,5 +63,14 @@
         </form>
     </div>
 
+    <?php
+}else{
+?>
+        <div>
+            你已登入
+        </div>
+<?php
+}
+?>
 </body>
 </html>
