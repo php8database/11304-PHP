@@ -3,16 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>產品介紹</title>
+    <title>財務報告</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<<<<<<< HEAD
-    <h1>產品介紹</h1>
-=======
->>>>>>> include
     <?php 
-    $page= "product";
+    $page= "finacial";
     include("common/navbar.php"); ?>
 
     <main>
