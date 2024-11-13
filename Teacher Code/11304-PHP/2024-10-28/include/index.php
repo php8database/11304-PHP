@@ -7,11 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<<<<<<< HEAD
-    <h1>首頁</h1>
-=======
     
->>>>>>> include
     <?php
         $page= "index";
      include("common/navbar.php"); 

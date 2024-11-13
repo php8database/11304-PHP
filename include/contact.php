@@ -7,10 +7,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<<<<<<< HEAD
-    <h1>聯絡我們</h1>
-=======
->>>>>>> include
     <?php 
     $page= "contact";
     include("common/navbar.php"); ?>

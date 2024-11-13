@@ -7,10 +7,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<<<<<<< HEAD
-    <h1>登入</h1>
-=======
->>>>>>> include
     <?php 
    $page= "login";
     include("common/navbar.php"); ?>
